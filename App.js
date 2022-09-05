@@ -266,3 +266,65 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+
+
+
+// import React, { useEffect, useState } from 'react';
+// import { ActivityIndicator, FlatList, Text, View } from 'react-native';
+// import axios from 'axios';
+// export default function App() {
+//   const [Data, setData] = useState([]);
+
+//   // const getMovies = async () => {
+//   //   //  try {
+//   //   //   const response = await fetch('https://reactnative.dev/movies.json');
+//   //   //   const res = await response.json();
+//   //   //   setMockData(res.movies);
+//   //   // } catch (error) {
+//   //   //   console.error(error);
+//   //   // } finally {
+//   //   //   setLoading(false);
+//   //   // }
+    
+    
+
+//   // }
+
+// //   useEffect(() => {
+// //     //getMovies();
+
+
+    
+// // axios.get('https://reactnative.dev/movies.json').then(resp => {
+
+// //   setMockData(resp.movies);
+// //   console.log("resp", resp.movies)
+// // }).catch((er)=> console.log(er))
+ 
+
+
+// //   }, []);
+
+
+
+//     useEffect(() => {
+//         axios.get('https://fakestoreapi.com/products')
+//         .then((response) => setData(response.data))               
+//         .catch(error => { console.log(error) });
+//         console.log('data',Data)
+//     }, []);
+
+//   return (
+//     <View style={{ flex: 1, padding: 24 }}>
+//       {
+//         <FlatList
+//           data={Data}
+//           keyExtractor={({ id }, index) => id}
+//           renderItem={({ item }) => (
+//             <Text>{item.title}</Text>
+//           )}
+//         />
+//       }
+//     </View>
+//   );
+// };
