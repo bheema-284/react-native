@@ -87,8 +87,8 @@ function About({route, navigation}) {
       <ScrollView>
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>        
         <View style={styles.container}>
-     <Text style={{color: 'green',fontSize: 30,textAlign:'center'}}>Hello world</Text>
-     <Text style={{color: 'blue',fontSize: 18,textAlign:'center'}}>I am awesome</Text>
+     <Text style={{color: 'green',fontSize: 30,textAlign:'center'}}>Hello Bheema This is React native</Text>
+     <Text style={{color: 'blue',fontSize: 18,textAlign:'center'}}>I am awesome to develop mobile application</Text>
      <TextInput
          style={{height: 40}}
          placeholder="Type here to somthing !"
